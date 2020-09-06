@@ -1,0 +1,323 @@
+
+/* external css: flickity.css */
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body { font-family: sans-serif; }
+
+
+
+.gallery-cell {
+  width: 66%;
+  height: auto;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  color: white;
+}
+
+/**********************************
+GENERAL
+***********************************/
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+h3 {
+  margin: 0 0 1em 0;
+
+}
+
+/**********************************
+HEADING
+***********************************/
+header {
+  float: left;
+  margin: 0 0 5% 0;
+  width: 100%;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  font-weight: normal;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 1em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+/**********************************
+FOOTER
+***********************************/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+
+/**********************************
+PAGE: PORTFOLIO
+***********************************/
+#wrapper {
+  max-width:100%;
+
+  margin: 0% 0% 5% 0; /*arriba derecha abajo izquierda*/
+  padding: 0 5%  0;  /*arriba lados abajo*/
+
+}
+
+#wrapper50percent {
+ max-width: 100%;
+ margin: 1% 0% 5% 0;
+ padding: 0 5%  0;
+ float: left;
+}
+
+#wrapper100percent {
+ max-width: 100%;
+ margin: 1% 0% 5% 0;
+ padding: 0 5%  0;
+ float: left;
+ text-align: center;
+}
+
+#wrapper50percent_der {
+ max-width: 100%;
+ margin: 0% 0% 0% 0;
+ padding: 0 5%  0;
+
+}
+
+#iconoPlayStore{
+  max-width: 100%;
+  padding: 0% 0% 0%;
+  margin: 0% 0% 0% 0%;
+}
+
+#textoCentrado{
+  text-align: center;
+}
+
+#gallery {
+  width: 100%;
+  margin: 2.5% 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+#gallery li {
+  float: left;
+  width: 100%;
+  margin: 0 2.4% 0 0;
+  /*background-color: #f5f5f5;*/
+  color: #111111;
+}
+
+#gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #111111;
+}
+/**********************************
+BUTTON DETALLES
+***********************************/
+button {
+  font: 700 1em Tahoma, Arial, Verdana, sans-serif;
+  color: #fff; background-color: #59B0E5;
+  border: 1px solid #0074a5;
+  border-top: 1px solid #004370;
+  border-left: 1px solid #004370;
+  cursor: pointer;
+}
+
+button {
+  width: auto; /* ie */
+  overflow: visible; /* ie */
+  padding: 3px 8px 2px 6px; /* ie */
+}
+
+button[type] {
+  padding: 4px 8px 4px 6px; /* firefox */
+}
+
+/**********************************
+PAGE: ABOUT
+***********************************/
+
+#wrapperAcercaDe {
+  max-width: 100%;
+  margin:0% 0px 0px 0px;
+   padding: 0 5% 0%;
+}
+
+#wrapperAcercaLogo {
+  max-width: 100%;
+  margin:0% 0px 0px 0px;
+  padding: 0 0% 0%;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/**********************************
+PAGE: CONTACT
+***********************************/
+  #wrapperBody{
+	  width: 100%;
+		padding: 0% 5% 0%;
+  }
+
+	#wrapperServicios{
+			width: 100%;
+			float: left;
+      padding: 0% 5% 0%;
+	}
+
+	#wrapperContacto{
+		width: 100%;
+			float: right ;
+     padding: 0% 5% 0%;
+	}
+
+
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a {
+  display: block;
+  min-height: 20px;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;
+  margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info li.mail a {
+  background-image: url('../img/mail.png');
+}
+
+.contact-info li.twitter a {
+  background-image: url('../img/twitter.png');
+}
+
+/**********************************
+COLORS
+***********************************/
+/* site body */
+body {
+  /*color fondo*/
+  background-color: #fff;
+  /*color letras*/
+  color: #222222;
+}
+
+/* header */
+header {
+  /*color fondo cabeza*/
+  background: #10181D;
+
+  border-color: #10181D;
+}
+
+/* nav background on mobile */
+nav {
+  background: #10181D;
+
+}
+
+h1, h2 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #4db8ff;
+}
+
+/* nav link */
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/* Cuando esta seleccionado un link */
+nav a.selected, nav a:hover {
+  /*color del nav var seleccionado*/
+  color: #008ae6;
+}
