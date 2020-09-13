@@ -41,22 +41,26 @@
 	}
 	#wrapper {
 		max-width: 100%;
-	  margin: 2% 0% 5% 0; /*arriba derecha abajo izquierda*/
-	  padding: 0 5%  0;  /*arriba lados abajo*/
+	  /**margin: 2% 0% 5% 0; /*arriba derecha abajo izquierda*/
+	  /**padding: 0 5%  0;  /*arriba lados abajo*/
 
 	}
+
+  #wrapperWavesPersonalizadas{
+    max-width: 100%;
+    margin: -2% 0 0 0;
+  }
 
 	#wrapper50percent_izq {
 	 max-width: 50%;
 	 margin: 0% 0% 0% 0%;
-	 padding: 0 5%  0;
-
+	 /**padding: 0 5%  0;*/
 	}
 
 	#wrapper50percent_der {
 	 max-width: 50%;
 	 margin: -50% 0% 0% 0;
-	 padding: 0 5%  0;
+	 /**padding: 0 5%  0;*/
    float: right;
 	}
 
@@ -69,6 +73,8 @@
 		img {
 		  max-width: 100%;
 		}
+
+
 
 	/* **********************
        PAGINA: ACERCA DE
