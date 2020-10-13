@@ -146,7 +146,7 @@
   }
   nav ul{
     position: fixed;
-    top: 80px;
+    top: 15%;
     left: -100%;
     background: #10181d;
     height: 100vh;
