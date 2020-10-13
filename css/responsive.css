@@ -154,6 +154,8 @@
     width: 100%;
     text-align: center;
     display: block;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     transition: all 0.3s ease;
   }
   #click:checked ~ ul{
