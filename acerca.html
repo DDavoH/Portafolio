@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DavoH | App Developer</title>
     <!--Este es el titulo de la pagina -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="stylesheet" href="css/normalize.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:400,700"
@@ -16,29 +17,30 @@
 
   <body>
     <header>
-      <a href="index.html" id="logo">
-        <h1>DavoH</h1>
-        <h2>Apps & Games</h2>
-      </a>
       <nav>
-        <ul>
-          <li><a href="index.html">Mis Apps</a></li>
-          <!-- aqui se aplico la clase selected -->
-          <li><a href="acerca.html" class="selected">Acerca de</a></li>
-          <li><a href="contacto.html">Contacto</a></li>
-        </ul>
-      </nav>
-    </header>
+       <a href="index.html">
+         <h1>DavoH</h1>
+         <h2>Apps & Games</h2>
+       </a>
+
+       <input type="checkbox" id="click" />
+       <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+       </label>
+       <ul>
+         <li><a href="index.html" >Mis Apps</a></li>
+         <li><a href="acerca.html" class="selected">Acerca de</a></li>
+         <li><a href="contacto.html">Contacto</a></li>
+       </ul>
+     </nav>
+   </header>
 
     <div id="wrapperAcercaLogo">
-      <section>
-        <img src="img/davoh.jpg" alt="Sitio de David" class="profile-photo" />
-      </section>
-    </div>
+          <img src="img/davoh.jpg" alt="Sitio de David" class="profile-photo" />
+         </div>
 
     <div id="wrapperAcercaDe">
-      <section>
-        <h3>¿Quien soy?</h3>
+             <h3>¿Quien soy?</h3>
         <p>Hola mi nombre es David Cruz Ramírez egresado de Ing. Mecatrónica</p>
         <p>
           Sigueme en Twitter, mi usuario es
@@ -51,8 +53,7 @@
           ya sea aplicaciones Android, aplicaciones de escritorio para windows y
           paginas web.
         </p>
-      </section>
-    </div>
+          </div>
 
     <footer>
       <a href="https://twitter.com/DavoH_Dev"

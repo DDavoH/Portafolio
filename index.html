@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--para que se muestre a lo ancho del dispositivo -->
     <title>DavoH | App Developer</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <!--Este es el titulo de la pagina -->
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
-      rel="stylesheet"
-    />
     <link rel="stylesheet" type="text/css" href="css/main.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
     <link rel="stylesheet" type="text/css" href="css/flickity.css" />
@@ -18,12 +15,16 @@
 
   <body>
     <header>
-      <a href="index.html" id="logo">
-        <h1>DavoH</h1>
-        <h2>Apps & Games</h2>
-      </a>
+       <nav>
+        <a href="index.html">
+          <h1>DavoH</h1>
+          <h2>Apps & Games</h2>
+        </a>
 
-      <nav>
+        <input type="checkbox" id="click" />
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
         <ul>
           <li><a href="index.html" class="selected">Mis Apps</a></li>
           <li><a href="acerca.html">Acerca de</a></li>
