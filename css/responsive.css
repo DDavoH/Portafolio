@@ -107,6 +107,7 @@
 **************************/
 
   nav {
+    height: 80px;
     background: none;
     float: right;
     font-size: 1.125em;
@@ -146,7 +147,7 @@
   }
   nav ul{
     position: fixed;
-    top: 15%;
+    top: 80px;
     left: -100%;
     background: #10181d;
     height: 100vh;
