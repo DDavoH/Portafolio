@@ -14,7 +14,7 @@ http://flickity.metafizzy.co
   overflow: hidden;
   position: relative;
   height: 100%;
-  z-index:-1;
+  z-index:0;
 }
 
 .flickity-slider {
@@ -59,7 +59,7 @@ http://flickity.metafizzy.co
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  z-index:-1;
+  z-index:0;
 }
 
 .flickity-prev-next-button:hover {
@@ -127,7 +127,7 @@ http://flickity.metafizzy.co
   list-style: none;
   text-align: center;
   line-height: 1;
-  z-index:-1;
+  z-index:0;
 }
 
 .flickity-rtl .flickity-page-dots {

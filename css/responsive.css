@@ -157,6 +157,7 @@
     padding: 0px 0px 0px 0px;
     margin: 0px 0px 0px 0px;
     transition: all 0.3s ease;
+    z-index:1;
   }
   #click:checked ~ ul{
     left: 0;
