@@ -7,8 +7,6 @@
 
   @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
 *{
-  margin: 0 0 2% 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 } 
@@ -107,7 +105,7 @@
 **************************/
 
   nav {
-    height: 80px;
+    height: 95px;
     background: none;
     float: right;
     font-size: 1.125em;
@@ -147,7 +145,7 @@
   }
   nav ul{
     position: fixed;
-    top: 80px;
+    top: 95px;
     left: -100%;
     background: #10181d;
     height: 100vh;
@@ -158,6 +156,10 @@
     margin: 0px 0px 0px 0px;
     transition: all 0.3s ease;
     z-index:1;
+   
+  }
+  navStatic{
+    position: static;
   }
   #click:checked ~ ul{
     left: 0;

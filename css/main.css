@@ -2,6 +2,7 @@
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -36,9 +37,7 @@ h3 {
 HEADING
 ***********************************/
 header {
-  float: left;
   margin: 0 0 5% 0;
-  width: 100%;
 }
 
 #logo {
@@ -82,7 +81,6 @@ footer {
 PAGE: PORTFOLIO
 ***********************************/
 #wrapper {
-  max-width: 100%;
   margin: 0% 0% 5% 0; /*arriba derecha abajo izquierda*/
   padding: 0 5% 0; /*arriba lados abajo*/
 }
@@ -103,8 +101,8 @@ PAGE: PORTFOLIO
 }
 
 #wrapper50percent_der {
-  max-width: 100%;
-  margin: 0% 0% 0% 0;
+  /*max-width: 100%;
+  margin: 0% 0% 0% 0;*/
   padding: 0 5% 0;
 }
 
@@ -256,6 +254,7 @@ header {
 h1,
 h2 {
   color: #fff;
+  font-weight: normal;
 }
 
 /* links */
@@ -280,9 +279,7 @@ nav a:hover {
 /* Nav menu */ 
 nav{
   display: flex;
-  height: 80px;
-  width: 100%;
-  background: #10181d;
+  height: 95px;
   align-items: center;
   justify-content: space-between;
   padding: 0 10% 0 5%;
