@@ -37,6 +37,7 @@ h3 {
 HEADING
 ***********************************/
 header {
+  height: 95px;
   margin: 0 0 5% 0;
 }
 
@@ -284,6 +285,12 @@ nav{
   justify-content: space-between;
   padding: 0 10% 0 5%;
   flex-wrap: wrap;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+    background-color: #10181d;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
 }
 nav .logo{
   color: #fff;

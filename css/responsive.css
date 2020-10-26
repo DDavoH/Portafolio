@@ -1,6 +1,7 @@
 /* CSS Document */
 @media all and (min-width: 480px) {
   header {
+    height: 95px;
     float: left;
     width: 100%;
   }
@@ -97,6 +98,22 @@
     max-width: 100%;
     padding: 0 15% 0%;
   }
+
+  nav {
+    height: 95px;
+    background: none;
+    float: right;
+    font-size: 1.125em;
+    margin-right: 0%;
+    text-align: left;
+    width: 100%;
+    z-index: 2;
+    overflow: hidden;
+    background-color: #10181d;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+  }
+
 }
 
 @media all and (min-width: 660px) {
@@ -112,6 +129,11 @@
     margin-right: 0%;
     text-align: left;
     width: 100%;
+    z-index: 2;
+    overflow: hidden;
+    background-color: #10181d;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
   }
 
   #logo {
@@ -158,9 +180,7 @@
     z-index:1;
    
   }
-  navStatic{
-    position: static;
-  }
+  
   #click:checked ~ ul{
     left: 0;
   }
