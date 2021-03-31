@@ -3,21 +3,24 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DavoH | App Developer</title>
-    <link rel="stylesheet" href="css/normalize.css" />
+    <title>DavoH | Android Developer</title>
     <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+    rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/global/normalize.css" />
+    <link rel="stylesheet" href="css/global/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/flickityindex.css"/>
+    <link rel="stylesheet" href="css/contacto.css"/>
+    <link rel="stylesheet" href="css/global/nav-bar.css"/>
   </head>
   <body>
     <header>
       <nav>
         <a href="index.html">
-          <h1>DavoH</h1>
-          <h2>Apps & Games</h2>
+          <h1>David Cruz Ramírez</h1>
+          <h2>Android Developer</h2>
         </a>
 
         <input type="checkbox" id="click" />
@@ -32,16 +35,15 @@
       </nav>
     </header>
 
-    <div id="wrapperBody">
-      <section id="wrapperServicios">
-        <h3>Servicios que ofrezco:</h3>
-        <p>• Desarrollo de aplicación nativa para dispositivos Android</p>
-        <p>• Desarrollo de aplicaciones en el software Unity 3D</p>
-        <p>• Programación de microcontroladores</p>
-        <p>• Desarrollo de paginas web</p>
-      </section>
+    <div class="grid-container">
+      <div class="wrapperServicios">
+        <h3>Disponible para:</h3>
+        <p>• Trabajo full time</p>
+        <p>• Freelance</p>
+        <p>• Home Office</p>
+      </div>
 
-      <section id="wrapperContacto">
+      <div class="wrapperContacto">
         <h3>Detalles de contacto</h3>
         <ul class="contact-info">
           <li class="mail">
@@ -53,7 +55,9 @@
             >
           </li>
         </ul>
-      </section>
+      </div>
+      </div>
+
 
       <footer>
         <a href="https://twitter.com/DavoH_Dev"
@@ -68,10 +72,9 @@
             alt="Facebook Logo"
             class="social-iconfacebook"
         /></a>
-        <p>&copy;2020 DavoH</p>
-        <p>&copy;DavoH Apps & Games</p>
+        <p>&copy;2021 DavoH</p>
       </footer>
-    </div>
+    
   </body>
   <script src="js/floatnav.js"></script>
 </html>

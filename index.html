@@ -3,21 +3,21 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--para que se muestre a lo ancho del dispositivo -->
-    <title>DavoH | App Developer</title>
-    <!--Este es el titulo de la pagina -->
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/main.css" />
-    <link rel="stylesheet" type="text/css" href="css/responsive.css" />
-    <link rel="stylesheet" type="text/css" href="css/flickity.css" />
+    <title>DavoH | Android Developer</title>
+    <link rel="stylesheet" href="css/global/normalize.css" />
+    <link rel="stylesheet" href="css/global/main.css" />
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/flickityindex.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/global/nav-bar.css"/>
   </head>
 
   <body>
     <header>
-       <nav>
+      <nav>
         <a href="index.html">
-          <h1>DavoH</h1>
-          <h2>Apps & Games</h2>
+          <h1>David Cruz Ramírez</h1>
+          <h2>Android Developer</h2>
         </a>
 
         <input type="checkbox" id="click" />
@@ -32,33 +32,33 @@
       </nav>
     </header>
 
-    <h3 id="textoCentrado">Homework Assistant - Agenda Escolar</h3>
+    <h3 class="center-text">Homework Assistant - Agenda Escolar</h3>
 
     <!--  Wrapper todo\-->
-    <div id="wrapper" >
+    <div class="wrapper grid-container">
       <!--  Wrapper carrusel galeria\-->
       <div
-        class="gallery js-flickity"
-        id="wrapper50percent_izq"
+        class="carousel" 
+        data-flickity='{ "autoPlay": true, "imagesLoaded": true, "percentPosition": false }'
         data-flickity-options='{ "wrapAround": true }'
       >
-        <div class="gallery-cell">
-          <img src="img/homeworkassistant/V2.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/homeworkassistant/V2.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/homeworkassistant/V1.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/homeworkassistant/V1.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/homeworkassistant/V3.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/homeworkassistant/V3.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/homeworkassistant/V4.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/homeworkassistant/V4.webp" />
         </div>
       </div>
 
       <!--  Wrapper caracteristicas\-->
-      <div id="wrapper50percent_der">
-        <h3 id="textoCentrado">Caracteristicas:</h3>
+      <div class="wrapper50percent_der">
+        <h3 class="center-text">Caracteristicas:</h3>
 
         <p>✔ Organiza tus horarios</p>
         <p>✔ Anota tus tareas y la aplicación diario te recordara tus tareas</p>
@@ -68,7 +68,7 @@
         <a
           href="https://play.google.com/store/apps/details?id=com.davoh.homeworkassistantfree"
           ><img
-            id="iconoPlayStore"
+            class="iconPlayStore"
             src="img/google-play-badge.png"
             alt="Twitter Logo"
             class="social-icontwitter"
@@ -76,45 +76,45 @@
       </div>
     </div>
 
-    <h3 id="textoCentrado">My Shopping List</h3>
+    <h3 class="center-text">My Shopping List</h3>
 
     <!--  Wrapper todo\-->
-    <div id="wrapper" >
+    <div class="wrapper grid-container" >
       <!--  Wrapper carrusel galeria\-->
       <div
-        class="gallery js-flickity"
-        id="wrapper50percent_izq"
+        class="carousel  row-carousel"
+        data-flickity='{ "autoPlay": true, "imagesLoaded": true, "percentPosition": false }'
         data-flickity-options='{ "wrapAround": true }'
       >
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/1.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/1.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/2.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/2.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/3.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/3.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/4.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/4.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/5.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/5.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/6.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/6.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/7.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/7.webp" />
         </div>
-        <div class="gallery-cell">
-          <img src="img/myshoppinglist/8.webp" />
+        <div class="carousel-cell">
+          <img class="screenshot" src="img/myshoppinglist/8.webp" />
         </div>
       </div>
 
       <!--  Wrapper caracteristicas\-->
-      <div id="wrapper50percent_der">
-        <h3 id="textoCentrado">Caracteristicas:</h3>
+      <div class="wrapper50percent_der">
+        <h3 class="center-text">Caracteristicas:</h3>
 
         <p>✔ Crea listas de compras</p>
         <p>✔ Organiza tus listas como tu quieras</p>
@@ -124,7 +124,7 @@
         <a
           href="https://play.google.com/store/apps/details?id=com.davoh.myshoppinglist"
           ><img
-            id="iconoPlayStore"
+          class="iconPlayStore"
             src="img/google-play-badge.png"
             alt="Twitter Logo"
             class="social-icontwitter"
@@ -145,11 +145,9 @@
           alt="Facebook Logo"
           class="social-iconfacebook"
       /></a>
-      <p>&copy;2020 DavoH</p>
-      <p>&copy;DavoH Apps & Games</p>
+      <p>&copy;2021 DavoH</p>
     </footer>
   </body>
-
-  <script src="js/flickity.pkgd.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <script src="js/floatnav.js"></script>
 </html>

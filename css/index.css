@@ -1,0 +1,61 @@
+.screenshot {
+  max-width: 100%;
+  max-height: 100%;
+  width: fit-content;
+  height: fit-content;
+}
+
+.iconPlayStore {
+  max-width: 100%;
+  padding: 0% 25% 0%;
+}
+
+.row-carousel {
+    max-width: 100%;
+  }
+
+.wrapper {
+  max-width: 100%;
+  margin: 0% 0% 5% 0; /*arriba derecha abajo izquierda*/
+  padding: 0 5% 0; /*arriba lados abajo*/
+}
+
+.wrapper100percent {
+  max-width: 100%;
+  margin: 1% 0% 5% 0;
+  padding: 0 5% 0;
+  float: left;
+  text-align: center;
+}
+
+.wrapper50percent_der {
+  padding: 5% 5% 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+/*tablet - desktop */
+@media all and (max-width: 920px) {
+    
+}
+
+/*desktop*/
+@media (min-width: 920px) {
+  .row-carousel {
+    max-width: 100%;
+  }
+  .wrapper50percent_der {
+    max-width: 100%;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 30px;
+    padding: 10px;
+  }
+
+}

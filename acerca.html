@@ -3,24 +3,30 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DavoH | App Developer</title>
+    <title>DavoH | Android Developer</title>
     <!--Este es el titulo de la pagina -->
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="css/normalize.css" />
     <link
-    href="https://fonts.googleapis.com/css?family=Roboto:400,700"
-    rel="stylesheet"
-  />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/responsive.css" />
+      href="https://fonts.googleapis.com/css?family=Roboto:400,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/global/normalize.css" />
+    <link rel="stylesheet" href="css/global/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+    <link rel="stylesheet" href="css/flickityindex.css" />
+    <link rel="stylesheet" href="css/acerca.css" />
+    <link rel="stylesheet" href="css/global/nav-bar.css" />
+    <link rel="stylesheet" href="css/global/progress-bar.css" />
   </head>
 
   <body>
     <header>
       <nav>
         <a href="index.html">
-          <h1>DavoH</h1>
-          <h2>Apps & Games</h2>
+          <h1>David Cruz Ramírez</h1>
+          <h2>Android Developer</h2>
         </a>
 
         <input type="checkbox" id="click" />
@@ -35,28 +41,139 @@
       </nav>
     </header>
 
-    <div id="wrapperAcercaLogo">
-      <img src="img/davoh.jpg" alt="Sitio de David" class="profile-photo" />
+    <div class="grid-container">
+      <div class="wrapperAcercaLogo">
+        <img src="img/davoh-min.jpg" alt="Sitio de David" class="profile-photo" />
+      </div>
+
+      <div>
+        <h3>¿Quien soy?</h3>
+        <p>
+          Hola mi nombre es David Cruz Ramírez egresado de Ingeniería
+          Mecatrónica del Instituto Tecnológico Superior de Coatzacoalcos
+        </p>
+
+        <p>
+          Me gusta tomar cursos para aprender nuevas tecnologias y mi pasatiempo
+          favorito es
+        </p>
+
+        <h3>¿Que hago?</h3>
+        <p>
+          Desarrollo aplicaciones Android, en los lenguajes Java, Kotlin y
+          Flutter, mi especialidad es el desarrollo de aplicaciones móviles pero
+          tengo conocimientos intermedios de PHP con el framework Laravel 8.X y
+          SQL para la creación de API REST, y el desarrollo front end web es mi
+          punto débil pero estoy en constante aprendizaje.
+        </p>
+      </div>
     </div>
 
-    <div id="wrapperAcercaDe">
-      <h3>¿Quien soy?</h3>
-      <p>Hola mi nombre es David Cruz Ramírez egresado de Ing. Mecatrónica</p>
-      <p>
-        Sigueme en Twitter, mi usuario es
-        <a href="https://twitter.com/DavoH_Dev" target="_blank">@DavoH_Dev</a>
-      </p>
+    <div class="grid-knowleage-container">
+      <div>
+        <h3>Lenguajes:</h3>
 
-      <h3>¿Que hago?</h3>
-      <p>
-        Soy desarrollador de aplicaciones Android, en los lenguajes Java, Kotlin y Flutter, mi especialidad
-        es el desarrollo móvil pero lo complemento con PHP y SQL para la creación de APIs, y el desarrollo web es mi punto débil pero
-        estoy en constante aprendizaje.
-      </p>
+        <div class="grid-knowleage-progressbar">
+          <p>Kotlin</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate-high"></div>
+            </div>
+          </div>
+          <p>Java</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate-high"></div>
+            </div>
+          </div>
+          <p>Flutter</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate"></div>
+            </div>
+          </div>
+          <p>PHP</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate"></div>
+            </div>
+          </div>
+          <p>SQL</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate"></div>
+            </div>
+          </div>
+          <p>NOSQL</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Android Skills</h3>
+        <div class="grid-knowleage-progressbar">
+          <p>Retrofit</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar high"></div>
+            </div>
+          </div>
+          <p>MVVM</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar high"></div>
+            </div>
+          </div>
+          <p>MVP</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate"></div>
+            </div>
+          </div>
+          <p>MVC</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar high"></div>
+            </div>
+          </div>
+          <p>Material Design</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate-high"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <h3>Otras skills</h3>
+        <div class="grid-knowleage-progressbar">
+          <p>AWS-Elastic Beanstalk-RDS</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate"></div>
+            </div>
+          </div>
+          <p>Firebase-FCM-Firestore-Realtime Database-Auth</p>
+          <div class="container">
+            <div class="progress">
+              <div class="bar intermediate-high"></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <embed src="assets/Curriculum vitae.pdf" type="application/pdf" width="100%" height="600px" id="wrapperAcercaLogo"/>
-
+    <div class="wrapper-cv">
+      <embed
+        src="assets/Curriculum vitae.pdf"
+        type="application/pdf"
+        width="100%"
+        height="600px"
+      />
+    </div>
 
     <footer>
       <a href="https://twitter.com/DavoH_Dev"
@@ -71,8 +188,7 @@
           alt="Facebook Logo"
           class="social-iconfacebook"
       /></a>
-      <p>&copy;2020 DavoH</p>
-      <p>&copy;DavoH Apps & Games</p>
+      <p>&copy;2021 DavoH</p>
     </footer>
   </body>
   <script src="js/floatnav.js"></script>
